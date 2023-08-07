@@ -13,5 +13,9 @@ if __name__ == '__main__':
             md = abs(kx-x) + abs(ky-y)
             if md % 2 == 0:
                 possible = False
-        print
+        
+        if possible:
+            print("YES")
+        else:
+            print("NO")
             
