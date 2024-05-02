@@ -1,0 +1,1 @@
+print(('aabb'*10**6)[:int(input())])
